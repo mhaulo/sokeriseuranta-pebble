@@ -1,0 +1,51 @@
+{
+    "author": "Sokeriseuranta",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "sokeriseuranta",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Sokeriseuranta",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "CURRENT_GLUCOSE",
+            "GLUCOSE_DELTA",
+            "CURRENT_GLUCOSE_TIMESTAMP",
+            "UserEmail",
+            "AccessToken"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Logo",
+                    "menuIcon": true,
+                    "name": "LOGO",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Screenshot",
+                    "name": "SCREENSHOT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "4aa018f3-a706-429e-9271-269c2c317502",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
